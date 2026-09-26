@@ -1,13 +1,10 @@
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        numberSet = {}
+        indices = {}
 
-        for i in range(len(nums)):
-            numberSet[nums[i]] = i
-
-        for i in range(len(nums)):
-            complement = target - nums[i]
-            if complement in numberSet and numberSet[complement] != i:
-                return [i, numberSet[complement]]
-
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in indices:
+                return [i, indices[diff]]
+            indices[n] = i
         return []
