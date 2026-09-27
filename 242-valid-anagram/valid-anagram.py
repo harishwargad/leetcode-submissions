@@ -1,9 +1,9 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        sorted_s = "".join(sorted(s, key=str.lower))
-        sorted_t = "".join(sorted(t, key=str.lower))
+        sorted_s = "".join(sorted(s))
+        sorted_t = "".join(sorted(t))
 
         if sorted_s == sorted_t:
             return True 
         else:
-            return False 
+            return False
