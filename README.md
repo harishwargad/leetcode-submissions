@@ -3,7 +3,6 @@
 A collection of my [LeetCode](https://leetcode.com/u/harishwargad/) solutions in **Python**, automatically synced via [LeetSync](https://github.com/3ba2ii/LeetSync).
 
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Synced with](https://img.shields.io/badge/Synced_with-LeetSync-2ea44f?style=flat-square)
 
 ---
 
